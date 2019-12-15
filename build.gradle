@@ -57,6 +57,10 @@ dependencies {
 }
 // end::dependencies[]
 
+plugins {
+  id "org.sonarqube" version "2.7"
+}
+
 // tag::wrapper[]
 task wrapper(type: Wrapper) {
     gradleVersion = '3.5'
